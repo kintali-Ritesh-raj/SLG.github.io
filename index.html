@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional cleaning services for homes and businesses. We offer flat cleaning, duplex cleaning, villa cleaning, and more.">
+    <meta name="keywords" content="cleaning services, home cleaning, office cleaning, professional cleaners">
+    <meta name="author" content="Your Company Name">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="SLG Housekeeping Services - Professional Cleaning Solutions">
+    <meta property="og:description" content="SLG Housekeeping Services - Your trusted cleaning partner since 2015. 10 years of excellence in professional cleaning services.">
+    <meta property="og:url" content="https://slghousekeeping.com">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://slghousekeeping.com/image/logo.jpg">
+    <meta property="og:site_name" content="SLG Housekeeping Services">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://slghousekeeping.com">
+    
+    <title>SLG Housekeeping Services - Professional Cleaning Solutions</title>
+    
+    <!-- Preload Critical Resources -->
+    <link rel="preload" href="image/logo.mp4" as="video" type="video/mp4">
+    <link rel="preload" href="image/welcome.jpg" as="image">
+    <link rel="preload" href="styles.css" as="style">
+    <link rel="preload" href="script.js" as="script">
+    
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- External CDNs -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "SLG Housekeeping Services",
+        "image": "https://slghousekeeping.com/image/logo.jpg",
+        "description": "Professional cleaning services with 10 years of experience",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Your Street Address",
+            "addressLocality": "Your City",
+            "addressRegion": "Your State",
+            "postalCode": "Your Postal Code",
+            "addressCountry": "IN"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "Your Latitude",
+            "longitude": "Your Longitude"
+        },
+        "url": "https://slghousekeeping.com",
+        "telephone": "+919949191912",
+        "priceRange": "₹₹",
+        "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday"
+            ],
+            "opens": "08:00",
+            "closes": "20:00"
+        },
+        "founder": {
+            "@type": "Person",
+            "name": "K T Naidu"
+        },
+        "foundingDate": "2015",
+        "sameAs": [
+            "https://www.facebook.com/slghousekeeping",
+            "https://www.instagram.com/slghousekeeping"
+        ]
+    }
+    </script>
+
+    <!-- cursorgeist library is linked, custom cursor styles can be moved to CSS -->
+    <!-- Removed cursorgeist link - using custom CSS cursor only -->
+    <!-- <link rel="stylesheet" href="https://unpkg.com/cursorgeist@latest/dist/cursorgeist.css"> -->
+
+    <!-- Custom Cursor Styles - Now only in styles.css -->
+    <!-- The cursorgeist link might still provide one, consider removing one -->
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+    <!-- Swirl Cursor -->
+    <div id="swirl-cursor"></div>
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader-content">
+            <div class="loader-spinner"></div>
+            <p>Loading...</p>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <div class="container">
+            <div class="navbar-left">
+                <div class="logo-wrapper">
+                    <video autoplay loop muted playsinline class="navbar-logo-video" aria-label="SLG Housekeeping Services Logo">
+                        <source src="image/logo.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="navbar-company-name">SLG Housekeeping Services</div>
+            </div>
+            <ul class="nav-links" role="menubar">
+                <li role="none"><a href="#home" role="menuitem" aria-current="page">Home</a></li>
+                <li role="none"><a href="#about" role="menuitem">About</a></li>
+                <li role="none"><a href="#services" role="menuitem">Services</a></li>
+                <li role="none"><a href="#clients" role="menuitem">Clients</a></li>
+                <li role="none"><a href="#contact" role="menuitem">Contact</a></li>
+            </ul>
+            <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>SLG Housekeeping Services</h1>
+            <p class="tagline">Your Trusted Cleaning Partner Since 2015</p>
+            <p class="description">With 10 years of excellence in professional cleaning services, we bring unmatched expertise and reliability to every project. Founded by K T Naidu, we are committed to delivering exceptional cleaning solutions for your home and business.</p>
+            <div class="cta-buttons">
+                <a href="#services" class="btn primary">Our Services</a>
+                <a href="#contact" class="btn secondary">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>About SLG Housekeeping Services</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Established in 2015, SLG Housekeeping Services has been a trusted name in professional cleaning for over a decade. Under the leadership of our founder, K T Naidu, we have built a reputation for excellence, reliability, and customer satisfaction.</p>
+                    <p>Our journey began with a simple mission: to provide top-quality cleaning services that exceed customer expectations. Today, we proudly serve numerous satisfied clients across residential and commercial sectors.</p>
+                    <div class="key-points">
+                        <div class="point">
+                            <i class="fas fa-check-circle"></i>
+                            <span>10+ Years of Experience</span>
+                        </div>
+                        <div class="point">
+                            <i class="fas fa-users"></i>
+                            <span>Professional Team</span>
+                        </div>
+                        <div class="point">
+                            <i class="fas fa-star"></i>
+                            <span>Quality Service</span>
+                        </div>
+                        <div class="point">
+                            <i class="fas fa-phone"></i>
+                            <span>24/7 Support</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="image/about-us.jpg" alt="SLG Housekeeping Team" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="animate-on-scroll">Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card animate-on-scroll" data-service="flat">
+                    <i class="fas fa-home"></i>
+                    <h3>Flat Cleaning</h3>
+                    <div class="service-price">₹3,500 - ₹4,000</div>
+                    <p>Professional cleaning services for apartments and flats</p>
+                </div>
+                <div class="service-card animate-on-scroll" data-service="duplex">
+                    <i class="fas fa-building"></i>
+                    <h3>Duplex Cleaning</h3>
+                    <div class="service-price">₹10,000 - ₹20,000</div>
+                    <p>Comprehensive cleaning for multi-level homes</p>
+                </div>
+                <div class="service-card animate-on-scroll" data-service="villa">
+                    <i class="fas fa-house-user"></i>
+                    <h3>Villa Cleaning</h3>
+                    <div class="service-price">₹20,000 - ₹35,000</div>
+                    <p>Luxury cleaning services for villas and large properties</p>
+                </div>
+                <div class="service-card animate-on-scroll" data-service="bathroom">
+                    <i class="fas fa-bath"></i>
+                    <h3>Bathroom Cleaning</h3>
+                    <div class="service-price">₹600 - ₹1,200</div>
+                    <p>Deep cleaning and sanitization for bathrooms</p>
+                </div>
+                <div class="service-card animate-on-scroll" data-service="glass">
+                    <i class="fas fa-window-maximize"></i>
+                    <h3>Glass Cleaning</h3>
+                    <div class="service-price">&nbsp;</div>
+                    <p>Professional window and glass cleaning services</p>
+                </div>
+                <div class="service-card animate-on-scroll" data-service="sofa">
+                    <i class="fas fa-couch"></i>
+                    <h3>Sofa Cleaning</h3>
+                    <div class="service-price">₹350 per seat</div>
+                    <p>Deep cleaning and maintenance for upholstery</p>
+                </div>
+                <div class="service-card animate-on-scroll" data-service="water-tank">
+                    <i class="fas fa-water"></i>
+                    <h3>Water Tank Cleaning</h3>
+                    <div class="service-price">₹1,500</div>
+                    <p>Professional water tank cleaning and maintenance</p>
+                </div>
+                <div class="service-card animate-on-scroll" data-service="commercial">
+                    <i class="fas fa-building"></i>
+                    <h3>Commercial Cleaning</h3>
+                    <div class="service-price">&nbsp;</div>
+                    <p>Cleaning services for businesses and offices</p>
+                </div>
+                <div class="service-card animate-on-scroll" data-service="industrial">
+                    <i class="fas fa-industry"></i>
+                    <h3>Industrial Cleaning</h3>
+                    <div class="service-price">&nbsp;</div>
+                    <p>Specialized cleaning for industrial facilities</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Modal -->
+    <div class="service-modal" id="serviceModal">
+        <div class="modal-content">
+            <button class="close-modal" aria-label="Close modal">×</button>
+            <div class="modal-body">
+                <!-- Content will be dynamically inserted here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Our Clients Section -->
+    <section id="clients" class="clients">
+        <div class="container">
+            <h2 class="animate-on-scroll">Our Clients</h2>
+            <!-- Apply animate-on-scroll to the container -->
+            <div class="clients-carousel animate-on-scroll">
+                 <div class="clients-track">
+                    <!-- Original Client Cards -->
+                    <div class="client-card">
+                        <img src="image/iim-visakhapatnam-logo.png" alt="Indian Institute of Management Visakhapatnam logo" loading="lazy" width="200" height="100">
+                        <h3>Indian Institute of Management (IIM), Visakhapatnam</h3>
+                    </div>
+                    <div class="client-card">
+                        <img src="image/Coromandel International.png" alt="Coromandel International logo" loading="lazy" width="200" height="100">
+                        <h3>Coromandel International</h3>
+                    </div>
+                    <div class="client-card">
+                        <img src="image/SMS Pharma.jpeg" alt="SMS Pharma">
+                        <h3>SMS Pharma</h3>
+                    </div>
+                    <div class="client-card">
+                        <img src="image/MK Builders & Developers.jpeg" alt="MK Builders & Developers">
+                        <h3>MK Builders & Developers</h3>
+                    </div>
+                    <div class="client-card">
+                        <img src="image/Lansum Greens (Madhavadhara).jpg" alt="Lansum Greens">
+                        <h3>Lansum Greens (Madhavadhara)</h3>
+                    </div>
+                    <div class="client-card">
+                        <img src="image/Steel Exchange India Limited.jpg" alt="Steel Exchange India Ltd">
+                        <h3>Steel Exchange India Ltd</h3>
+                    </div>
+                    <div class="client-card">
+                        <img src="image/Essar Vizag Terminals Limited.jpeg" alt="Essar Vizag Terminals Limited">
+                        <h3>Essar Vizag Terminals Limited</h3>
+                    </div>
+                    <div class="client-card">
+                        <img src="image/uss.jpg" alt="Universal Services and Supplier">
+                        <h3>Universal Services and Supplier</h3>
+                    </div>
+                    <div class="client-card">
+                        <img src="image/Tristar Auto Agencies Vizag Pvt. Ltd.jpg" alt="Tristar Auto Agencies">
+                        <h3>Tristar Auto Agencies Vizag Pvt. Ltd</h3>
+                    </div>
+                    <div class="client-card">
+                        <img src="image/GMFC Labs Private Limited.jpeg" alt="GMFC Labs">
+                        <h3>GMFC Labs Private Limited</h3>
+                    </div>
+                    <div class="client-card">
+                        <img src="image/Indiabulls Sierra.png" alt="Indiabulls Sierra">
+                        <h3>Indiabulls Sierra</h3>
+                    </div>
+                    <div class="client-card">
+                        <img src="image/Biophore India Pharmaceuticals Pvt. Ltd.jpeg" alt="Biophore India Pharmaceuticals">
+                        <h3>Biophore India Pharmaceuticals Pvt. Ltd.</h3>
+                    </div>
+                    <div class="client-card">
+                        <img src="image/Raks Pharma Pvt. Ltd.jpeg" alt="Raks Pharma">
+                        <h3>Raks Pharma Pvt. Ltd.</h3>
+                    </div>
+                    <div class="client-card">
+                        <img src="image/Styrax Pharma Pvt. Ltd.jpeg" alt="Styrax Pharma">
+                        <h3>Styrax Pharma Pvt. Ltd.</h3>
+                    </div>
+
+                     <!-- Duplicated Client Cards for seamless loop - Ensure there are enough duplicates-->
+                     <div class="client-card">
+                        <img src="image/iim-visakhapatnam-logo.png" alt="Indian Institute of Management Visakhapatnam logo" loading="lazy" width="200" height="100">
+                        <h3>Indian Institute of Management (IIM), Visakhapatnam</h3>
+                    </div>
+                    <div class="client-card">
+                        <img src="image/Coromandel International.png" alt="Coromandel International logo" loading="lazy" width="200" height="100">
+                        <h3>Coromandel International</h3>
+                    </div>
+                    <div class="client-card">
+                        <img src="image/SMS Pharma.jpeg" alt="SMS Pharma">
+                        <h3>SMS Pharma</h3>
+                    </div>
+                    <div class="client-card">
+                        <img src="image/MK Builders & Developers.jpeg" alt="MK Builders & Developers">
+                        <h3>MK Builders & Developers</h3>
+                    </div>
+                    <div class="client-card">
+                        <img src="image/Lansum Greens (Madhavadhara).jpg" alt="Lansum Greens">
+                        <h3>Lansum Greens (Madhavadhara)</h3>
+                    </div>
+                    <div class="client-card">
+                        <img src="image/Steel Exchange India Limited.jpg" alt="Steel Exchange India Ltd">
+                        <h3>Steel Exchange India Ltd</h3>
+                    </div>
+                    <div class="client-card">
+                        <img src="image/Essar Vizag Terminals Limited.jpeg" alt="Essar Vizag Terminals Limited">
+                        <h3>Essar Vizag Terminals Limited</h3>
+                    </div>
+                    <div class="client-card">
+                        <img src="image/uss.jpg" alt="Universal Services and Supplier">
+                        <h3>Universal Services and Supplier</h3>
+                    </div>
+                    <div class="client-card">
+                        <img src="image/Tristar Auto Agencies Vizag Pvt. Ltd.jpg" alt="Tristar Auto Agencies">
+                        <h3>Tristar Auto Agencies Vizag Pvt. Ltd</h3>
+                    </div>
+                    <div class="client-card">
+                        <img src="image/GMFC Labs Private Limited.jpeg" alt="GMFC Labs">
+                        <h3>GMFC Labs Private Limited</h3>
+                    </div>
+                    <div class="client-card">
+                        <img src="image/Indiabulls Sierra.png" alt="Indiabulls Sierra">
+                        <h3>Indiabulls Sierra</h3>
+                    </div>
+                    <div class="client-card">
+                        <img src="image/Biophore India Pharmaceuticals Pvt. Ltd.jpeg" alt="Biophore India Pharmaceuticals">
+                        <h3>Biophore India Pharmaceuticals Pvt. Ltd.</h3>
+                    </div>
+                    <div class="client-card">
+                        <img src="image/Raks Pharma Pvt. Ltd.jpeg" alt="Raks Pharma">
+                        <h3>Raks Pharma Pvt. Ltd.</h3>
+                    </div>
+                    <div class="client-card">
+                        <img src="image/Styrax Pharma Pvt. Ltd.jpeg" alt="Styrax Pharma">
+                        <h3>Styrax Pharma Pvt. Ltd.</h3>
+                    </div>
+                    <!-- Add more duplicates if needed, depending on the number of visible cards -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="animate-on-scroll">Contact Us</h2>
+            <div class="contact-content">
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                        <div id="name-error" class="error-message"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                        <div id="email-error" class="error-message"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" name="phone" required>
+                        <div id="phone-error" class="error-message"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="service">Service</label>
+                        <select id="service" name="service" required>
+                            <option value="">Select a service</option>
+                            <option value="flat">Flat Cleaning</option>
+                            <option value="duplex">Duplex Cleaning</option>
+                            <option value="villa">Villa Cleaning</option>
+                            <option value="bathroom">Bathroom Cleaning</option>
+                            <option value="glass">Glass Cleaning</option>
+                            <option value="sofa">Sofa Cleaning</option>
+                            <option value="water-tank">Water Tank Cleaning</option>
+                            <option value="commercial">Commercial Cleaning</option>
+                            <option value="industrial">Industrial Cleaning</option>
+                        </select>
+                        <div id="service-error" class="error-message"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                        <div id="message-error" class="error-message"></div>
+                    </div>
+                    <button type="submit" class="submit-button">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>SLG Housekeeping Services</h3>
+                    <p>Your trusted cleaning partner since 2015</p>
+                    <div class="contact-info">
+                        <p><i class="fas fa-phone"></i> <a href="tel:+919949191912">+91 9949191912</a></p>
+                        <p><i class="fas fa-envelope"></i> <a href="mailto:info@slghousekeeping.com">info@slghousekeeping.com</a></p>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Our Services</h3>
+                    <ul>
+                        <li>Residential Cleaning</li>
+                        <li>Commercial Cleaning</li>
+                        <li>Industrial Cleaning</li>
+                        <li>Specialized Cleaning</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 SLG Housekeeping Services. All Rights Reserved.</p>
+                <p>Founded by K T Naidu</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/9949191912" class="whatsapp-button" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+
+</body>
+</html>
